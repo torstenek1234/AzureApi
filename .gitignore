@@ -1,0 +1,42 @@
+# Build outputs
+bin/
+obj/
+Debug/
+Release/
+[Bb]uild/
+*.dll
+*.pdb
+*.exe
+
+# User settings & IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Azure Functions
+local.settings.json
+*.local.json
+
+# NuGet
+packages/
+*.nupkg
+
+# Test results
+TestResults/
+*.trx
+
+# Logs & temp
+logs/
+*.log
+__blobstorage__/
+temp/
+
+# Firebase 
+Firebase/*.json
+!Firebase/*.firebaserc   # example: keep config but ignore credentials
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
